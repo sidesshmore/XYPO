@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xypo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="/images/logo.png" alt="" class="logo">
+            <div class="header-text">
+                <h1>The purpose is to <br> teach, bring learning to people.</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque eum quae magnam reiciendis! Voluptas eius accusamus vel quasi, repellat illo provident, quae libero iure alias consequatur sunt, possimus iusto.</p>
+                <button class="common-btn">Read More</button>
+                <div class="line">
+                    <span class="line-1"></span> <br>
+                    <span class="line-2"></span> <br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav id="side-nav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">OFFER</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <img src="/images/menu.png" alt="" id="menu-btn">
+
+
+
+    <!-- *************************************************************ABOUT******************************************************************** -->
+
+    <section id="about">
+        <div class="about-left-col">
+            <img src="/images/about.png" alt="">
+        </div>
+
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deleniti iste voluptatem sunt culpa tempora cum cumque, iure suscipit numquam expedita sit provident possimus quaerat beatae consectetur dolores eveniet mollitia recusandae harum voluptate. Corrupti doloribus, minima magnam natus id nemo. Architecto placeat ex eius, nihil totam tempora temporibus maiores praesentium, commodi vel odit! Qui, sint? Cum inventore molestias adipisci eveniet!</p> <br> <br>
+                <div class="line">
+                    <span class="line-1"></span> <br>
+                    <span class="line-2"></span> <br>
+                    <span class="line-3"></span>
+                </div>
+                <h2>"Learning is not attained by chance, it must be sought for ardor and attended to with diligence"</h2>
+                <h3>----Abigail Adams</h3>
+                <span class="square"></span>
+            </div>
+            
+        </div>
+    </section>
+
+     <!-- *************************************************************FEATURES******************************************************************* -->
+
+     <section id="features">
+         <div class="feature-row">
+             <div class="featue-col">
+                 <img src="/images/pic-1.png" alt="">
+                 <h4>Learn Anywhere</h4>
+                 <p>Switch between your computer, <br>tablet or mobile devices</p>
+             </div>
+             <div class="featue-col">
+                <img src="/images/pic-2.png" alt="">
+                <h4>Expert Teachers</h4>
+                <p>Learn fromindustry experts who are <br> passionate about teaching.</p>
+             </div>
+             <div class="featue-col">
+                <img src="/images/pic-3.png" alt="">
+                <h4>Unlimited Access</h4>
+                <p>Choose what you'd like to learn from <br> our extensive subscription library.</p>
+             </div>
+         </div>
+         <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span> <br>
+                <span class="line-2"></span> <br>
+                <span class="line-3"></span>
+            </div>
+            <button class="common-btn">Start Free Trial</button>
+         </div>
+     </section>
+
+       <!-- *************************************************************COURSES****************************************************************** -->
+
+       <section id="courses">
+           <div class="container">
+               <div class="course-left-col">
+                   
+               </div>
+               <div class="course-right-col">
+
+               </div>
+           </div>
+       </section>
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var menubtn = document.getElementById("menu-btn")
+    var sidenav = document.getElementById("side-nav")
+
+    sidenav.style.right = "-250px";
+    menubtn.onclick = function(){
+        if(sidenav.style.right == "-250px"){
+            sidenav.style.right = "0";
+        }
+        else{
+            sidenav.style.right = "-250px";
+        }
+    }
+</script>
+</body>
+</html>
