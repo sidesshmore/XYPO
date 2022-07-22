@@ -200,4 +200,70 @@ nav ul li a {
     margin-right: 25px;
 }
 
- /* *************************************************************COURSES******************************************************************** */
+ /* *************************************************************MEDIA_QUERY******************************************************************** */
+
+ @media only screen and (max-width: 770px){
+     #header{
+         background-image: none;
+     }
+
+     .container {
+        margin: 0px 50px;
+    }
+    
+    .logo {
+        margin: 10px 0 0 0;
+        width: 60px;
+    }
+    
+    .header-text {
+        /* max-width: 350px; */
+        margin-top: 100px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+
+    #menu-btn{
+        width: 40px;
+        /* position: fixed; */
+        top: 35px;
+        right: 25px;
+        /* z-index: 2; */
+    }
+
+    .common-btn {
+        padding: 10px 15px;
+        /* background-color: transparent;
+        border: solid 2px #f67c92;
+        font-weight: bold;
+        font-size: 15px;
+        outline: none;
+        cursor: pointer; */
+    }
+    
+    .about-left-col, .about-right-col{
+        flex-basis: 100%;
+       }
+
+       .about-text{
+        /* max-width: 500px; */
+        margin-right: 50px 50px 0;
+        display: inline-block;
+        
+    }
+   
+    .about-text h2{
+        /* margin: 50px 0px 10px; */
+        font-size: 18px;
+        /* font-style: italic; */
+    }
+
+    .feature-col{
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+   
+    }
+ }
