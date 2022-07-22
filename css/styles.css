@@ -271,6 +271,11 @@ hr{
          background-image: url("/images/background.png");
          
      }
+     .header-text p{
+         color: black;
+         /* margin-top: 20px; */
+         background-color: #ffeef1;
+     }
 
      .container {
         margin: 0px 50px;
